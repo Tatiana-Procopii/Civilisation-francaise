@@ -532,4 +532,8 @@ p::first-letter {
     .col-50 iframe{
         height: 200px;
     }
+
+    .test iframe{
+        height: 250px;
+    }
 }
