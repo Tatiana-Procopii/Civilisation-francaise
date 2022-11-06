@@ -154,10 +154,7 @@ h2 {
     margin-top: 10px;
 }
 
-p {
-    font-style: italic;
 
-}
 
 p::first-letter {
     font-family: 'Oleo Script Swash Caps', cursive;
@@ -255,6 +252,10 @@ p::first-letter {
     margin-right: 15px;
     margin-bottom: 15px;
 
+}
+.source{
+    width:100%;
+    height: 400px;
 }
 
 
@@ -495,6 +496,12 @@ p::first-letter {
         height: 200px;
         overflow: auto;
     }
+
+
+.source{
+    width:100%;
+    height: 300px;
+}
 
     .row {
         margin: 0px;
