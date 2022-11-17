@@ -227,6 +227,21 @@ p::first-letter {
 
 }
 
+details {
+ border: 2px solid rgba(24, 24, 76, 0.734);
+ padding: 5px;
+    max-width: 400px;
+    margin-top: 10px;
+    margin-left: 25px;
+    cursor: pointer; 
+  
+}
+summary{
+    color: #031642;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .culture {
     overflow: auto;
     border-bottom: 2px rgb(12, 55, 136) solid;
@@ -404,7 +419,7 @@ p::first-letter {
     }
 
     section {
-        padding: 80px 10px;
+        padding: 100px 15px 50px 15px;
 
     }
 
