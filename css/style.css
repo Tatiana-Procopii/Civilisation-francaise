@@ -230,7 +230,7 @@ p::first-letter {
 details {
  border: 2px solid rgba(24, 24, 76, 0.734);
  padding: 5px;
-    max-width: 400px;
+    max-width: 100%;
     margin-top: 10px;
     margin-left: 25px;
     cursor: pointer; 
@@ -502,7 +502,9 @@ summary{
     }
 
     .culture {
-        padding: 15px;
+        padding: 5px;
+        width: 100%;
+      
     }
 
     .culture img,
@@ -512,7 +514,9 @@ summary{
         overflow: auto;
     }
 
-
+details {
+    width: 90%;
+}
 .source{
     width:100%;
     height: 300px;
