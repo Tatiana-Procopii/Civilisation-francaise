@@ -245,6 +245,7 @@ summary{
 .culture {
     overflow: auto;
     border-bottom: 2px rgb(12, 55, 136) solid;
+    padding: 10px;
 
 }
 
@@ -254,10 +255,13 @@ summary{
     object-fit: cover;
     border-radius: 15px;
     float: left;
-    margin-right: 15px;
-    margin-bottom: 15px;
-}
+    margin: 15px;
+    padding-top: 5px;
 
+}
+.culture p {
+  margin: 10px;
+}
 .culture iframe {
     height: 200px;
     width: 300px;
@@ -403,6 +407,12 @@ summary{
     padding: 0px;
 }
 
+.test iframe{
+    height: 50vh;
+}
+summary {
+font-size: 34px;
+}
 
 @media (max-width: 800px) {
     body {
@@ -419,7 +429,7 @@ summary{
     }
 
     section {
-        padding: 100px 15px 50px 15px;
+        padding: 100px 5px 50px 5px;
 
     }
 
@@ -502,9 +512,14 @@ summary{
     }
 
     .culture {
+        margin: 0px;
         padding: 5px;
         width: 100%;
       
+    }
+    
+    .culture p{
+        text-align: justify;
     }
 
     .culture img,
@@ -512,10 +527,17 @@ summary{
         width: 100%;
         height: 200px;
         overflow: auto;
+        margin: 0px;
     }
 
-details {
-    width: 90%;
+.details-content {
+width: 90%;
+margin: 10px auto;
+ 
+}
+
+summary {
+    font-size: 20px;
 }
 .source{
     width:100%;
