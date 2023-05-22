@@ -1,4 +1,4 @@
-emailjs.init("user_vFbROt1l9IOkMhIJlnDG7");
+emailjs.init("c1pdO4HeYDPxv-pzT");
 
 var date = {
     name: document.getElementById("name").value,
@@ -12,7 +12,7 @@ function send() {
         document.getElementById("formular").reportValidity();
         return;
     }
-    emailjs.send("service_e1h7f8b","template_7hfdzfb", date)
+    emailjs.send("service_ws6a5se","template_7hfdzfb", date)
         .then(function (raspuns) {
             alert("Mesajul a fost transmis.")
             document.getElementById("formular").reset();
